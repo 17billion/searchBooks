@@ -2,7 +2,7 @@
 ---
 
 프로젝트
-> 카카오, 네이버 open api를 이용한 책 검색 서비스 
+> 카카오, 네이버 Open API를 이용한 책 검색 서비스 
   
 ### ENV
 - gradle : 6.0.1 <br>
@@ -13,17 +13,17 @@
 - database : h2
  
 ### 프로젝트 실행 방법
-####1. Git Clone
+#### 1. Git Clone
 > $ git clone https://github.com/17billion/searchBooks.git <br>
 > $ cd searchBooks/
 
-####2. 프로젝트 실행
+#### 2. 프로젝트 실행
 > $ gradle bootRun
 
-####3.  Flow 테스트 (curl, 테스트 계정 : test(account) / test123 (pwd))
+#### 3.  Flow 테스트 (curl, 테스트 계정 : test(account) / test123 (pwd))
 > $ ./curlTestFlow.sh
 
-####4. 접속
+#### 4. 접속
 > http://localhost:8080
 
 ### 외부 라이브러리
